@@ -1,0 +1,30 @@
+# Your own Spotify Client ID, bundle ID and Apple team
+Config/Local.xcconfig
+
+# Signing material and secrets: never commit these
+*.p8
+*.p12
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+
+# Build output
+DerivedData/
+build/
+.build/
+.swiftpm/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+*.xcresult
+
+# Xcode per-user state
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store

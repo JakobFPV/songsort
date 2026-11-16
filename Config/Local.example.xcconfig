@@ -1,0 +1,12 @@
+// Copy this file to Config/Local.xcconfig and fill in your values (see README → Setup).
+// Local.xcconfig is ignored by git, so your IDs stay out of the repository.
+
+// 32-character Client ID from developer.spotify.com/dashboard → your app → Settings
+SPOTIFY_CLIENT_ID = 0123456789abcdef0123456789abcdef
+
+// Any reverse-DNS ID unique to you, e.g. com.yourname.songsort.
+// Enter the same value as "iOS Bundle ID" in the Spotify dashboard.
+SONGSORT_BUNDLE_ID = com.yourname.songsort
+
+// Your 10-character Apple Team ID (Xcode → Settings → Accounts → your team)
+DEVELOPMENT_TEAM = ABCDE12345

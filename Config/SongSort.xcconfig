@@ -1,0 +1,15 @@
+// Shared build settings for SongSort.
+// Don't put your own values here: copy Local.example.xcconfig to Local.xcconfig (not committed) and edit that.
+
+// Your Spotify app's Client ID (developer.spotify.com/dashboard → your app → Settings).
+SPOTIFY_CLIENT_ID =
+
+// Must be unique for your Apple ID, and registered as "iOS Bundle ID" in the Spotify dashboard.
+SONGSORT_BUNDLE_ID = com.example.songsort
+
+// Your Apple Developer Team ID (Xcode → Settings → Accounts). Needed to run on your iPhone.
+DEVELOPMENT_TEAM =
+
+PRODUCT_BUNDLE_IDENTIFIER = $(SONGSORT_BUNDLE_ID)
+
+#include? "Local.xcconfig"
